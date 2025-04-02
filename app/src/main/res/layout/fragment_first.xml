@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENDER"
+        android:textColor="@color/gold"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message to send"
+        android:textColorHint="@color/dark_gold"
+        android:textColor="@color/gold"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSendBundle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send via Bundle"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonSendInterface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send via imessage"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonSendViewModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send via wifi" />
+
+</LinearLayout>
